@@ -24,8 +24,8 @@ const whenExternalScripts = (items = []) =>
     : [];
 
 export default defineConfig({
-  site: SITE_CONFIG.site,
-  base: SITE_CONFIG.base,
+  site: 'https://danielle-dickinson.github.io',
+  base: ,
   trailingSlash: SITE_CONFIG.trailingSlash ? 'always' : 'never',
 
   output: 'static',
